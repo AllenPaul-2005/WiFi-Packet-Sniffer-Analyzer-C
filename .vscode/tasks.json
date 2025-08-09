@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-sniffer",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "sniffer.c",
+                "-o", "sniffer.exe",
+                "-I", "C:/Users/Lenovo/Downloads/npcap-sdk-1.15/Include",
+                "-L", "C:/Users/Lenovo/Downloads/npcap-sdk-1.15/Lib/x64",
+                "-lwpcap",
+                "-lPacket",
+                "-lws2_32"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
