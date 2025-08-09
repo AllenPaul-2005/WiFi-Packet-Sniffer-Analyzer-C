@@ -1,6 +1,6 @@
 /*
     Simple Sniffer with Npcap/WinPcap, prints ethernet, ip, tcp, udp and icmp headers along with data dump in hex
-    Updated for GCC/MinGW by Allen’s Helper
+    
 */
 
 #include <stdio.h>
